@@ -7,7 +7,7 @@ import Chain3 from 'chain3';
 export default class App extends React.Component {
   componentWillMount() {
     const chain3 = new Chain3(
-      new Chain3.providers.HttpProvider('http://127.0.0.1:8545')
+      new Chain3.providers.HttpProvider('https://www.moacwalletonline.com/test')
     );
 
     chain3.mc.getBlock('latest', (error,response) => {
