@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import './global';
-
+import './shim.js';
 import Chain3 from 'chain3';
 
 export default class App extends React.Component {
